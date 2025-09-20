@@ -15,7 +15,7 @@
 # [START cloudbuild_quickstart_automate]
 steps:
   - name: golang
-    script: go run  quickstart-automate/main.go'
-  options:
-    logging: CLOUD_LOGGING_ONLY
+    script: 'go run quickstart-automate/main.go'
+options:
+  logging: CLOUD_LOGGING_ONLY
 # [END cloudbuild_quickstart_automate]
